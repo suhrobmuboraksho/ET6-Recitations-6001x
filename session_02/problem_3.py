@@ -12,10 +12,12 @@ Instructions:
 3. Print the modified sentence.
 
 """
-# Define vowels
-
-
-# Replace vowels with '*'
-
-
-# Print the modified sentence
+vowels = "aeiou"
+word = input("Enter the word:")
+temp = ""
+for char in word:
+    if char in vowels:
+        temp += "*"
+    else:
+        temp += char
+print(temp)

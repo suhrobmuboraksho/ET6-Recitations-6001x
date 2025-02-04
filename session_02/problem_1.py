@@ -17,9 +17,14 @@ Instructions:
 5. Print the string in reverse order.
 """
 # Define a string variable
+message = "Recitation Session"
 
 # Indexing
+print(message[0], message[-1])
 
 # Slicing
+print(message[:10])
+print(message[11:])
 
 # Reverse the string 
+print(message[::-1])

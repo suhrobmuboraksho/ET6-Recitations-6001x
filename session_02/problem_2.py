@@ -13,10 +13,10 @@ Instructions:
 3. Check if the word is the same when reversed.
 4. Print "It's a palindrome!" if true, otherwise print "Not a palindrome."
 """
-## Get user input
+word = input("Enter a word:")
+word = word.lower()
 
-
-# Convert to lowercase for case insensitivity by cally lower() function 
-
-# Check if the word is the same forward and backward
-
+if word == word[::-1]:
+    print("It's a palindrome")
+else:
+    print("Not a palindrome")

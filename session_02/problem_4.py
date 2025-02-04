@@ -15,14 +15,13 @@ Instructions:
 4. Print each multiplication result, then increment counters properly.
 5. If you have time implemnt it with for loop as well/
 """
-# Initialize outer loop counter
 
-# Outer loop: Iterate through numbers 1 to 9
+num1 = 1
 
-# Initialize inner loop counter
-
-# Inner loop: Iterate from 1 to 10
-
-    # Increment inner loop counter
-
-# Increment outer loop counter
+while num1 < 10:
+    num2 = 1
+    while num2 < 11:
+        result = num1 * num2
+        print(f"{num1} × {num2} = {result}")
+        num2 += + 1
+    num1 += + 1
